@@ -1,7 +1,8 @@
 {
   "name": "data-lovers",
   "version": "1.0.0",
-  "main": "src/index.html",
+  "main": "src/data/main.js",
+  "type": "module",
   "license": "MIT",
   "scripts": {
     "htmlhint": "htmlhint src/*.html test/*.html",
