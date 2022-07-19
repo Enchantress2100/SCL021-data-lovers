@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400&display=swap');
+
+* {
+  font-family: 'Cabin', sans-serif;
+}
+
 body {
     padding : 1.5rem;
     background-color: white;
@@ -9,9 +15,12 @@ body {
 
   .title{
     display: none;
-    position: absolute;
-    bottom: 0px;
-    padding: 0px 16px 12px;
+    position: relative;
+    bottom: 70px;
+    padding: 0px;
+    z-index: 1;
+    color: white;
+    width: 300px;
   }
   
   .container {
@@ -19,7 +28,7 @@ body {
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(5,  1fr);
-    grid-template-rows: repeat(auto, 1fr);
+    grid-template-rows: 300px 300px 300px 300px 300px 300px 300px ;
     grid-gap: 1rem;
     grid-auto-flow: dense;
     padding: 2rem;
@@ -33,17 +42,23 @@ body {
     object-position: center;
     grid-column: span 1;
     grid-row: span 1;
-    transition: transform 1s,filter 3s ease-in-out;
-    z-index: 1;
+    transition: transform 1s,filter 1s ease-in-out;
+    z-index: 0;
   }
 
   .picture:hover{
     transform: scale(1.1);
+    filter: brightness(50%);
   }
 
-  .picture:hover + .title{
+.picture:hover + .title{
+    font-size: 150%;
     display:block;
   }
 
+  .container > .containerBox > div:nth-child(4n) {
+    grid-column: span 2; /* Spans two columns */
+    grid-row: span 2; /* Spans two rows */
+  }
 
-
+  
