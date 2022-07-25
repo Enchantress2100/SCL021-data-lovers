@@ -8,5 +8,5 @@ import movies from "./data/ghibli/titulos.js";
 movies.films.forEach((element) => {
   document.getElementById(
     "containerBox"
-  ).innerHTML += `<div><a class="link1" href="./card?title=${element.title}"><img class="picture" src=" ${element.img} "</div><h2 class="title"> ${element.title}</h2></a>`;
+  ).innerHTML += `<div><a class="link1" href="./card?id=${element.id}"><img class="picture" src=" ${element.img} "</div><h2 class="title"> ${element.title}</h2></a>`;
 });
