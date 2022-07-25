@@ -7,48 +7,48 @@
     <title>Tarjeta</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
+
   <body>
-  
     <header class="navbar">
-      Navbar
+      <ul>
+        <li><a class="left" href="./index.html">Acá va el banner</a></li>
+        <li><a class="right" href="./display.html">Ver todas las películas</a></li>
+      </ul>
     </header>
+  <div class="main">
     <div class="wrapper">
     <div class="principal">
-      <section class="info">
-        <h1>Title</h1>
-        <h2>Release date</h2>
-        <p>Director:<p>
-          <p>Producer:</p>
-          <p>Description:</p>
-          <p>Rate:</p>
+      <section class="info" id="info">
       </section>
       <section class="menu">
           <button type="button" class="collapsible">People</button>
           <div class="content">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+            <p>Name:</p>
+            <img id="image-people" src="" alt="">
+            <p>Gender:</p>
+            <p>Age:</p>
+            <p>Eye color:</p>
+            <p>Hair color:</p>
+            <p>Specie:</p>
           </div>
           <button type="button" class="collapsible">Locations</button>
           <div class="content">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+            <p>Name:</p>
+            <img id="image-location" src="" alt="">
+            <p>Climate:</p>
+            <p>Terrain:</p>
+            <p>Surface Water:</p>
+            <p>Residents:</p>
           </div>
           <button type="button" class="collapsible">Vehicles</button>
           <div class="content">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
+            <p>Name: <span id="name-vehicle"></span></p>
+            <img id="image-vehicle" src="" alt="">
+            <p>Description:</p>
+            <p>Vehicle class:</p>
+            <p>Length:</p>
+            <p>Name of the Pilot:</p>
           </div>
       </section>
     </div>
@@ -56,9 +56,7 @@
       hola soy el aside
     </div>
     </div>
-
-
-
+  </div>
   <script type="module" src="./card.js"></script>
   </body>
 </html>
