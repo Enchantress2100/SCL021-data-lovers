@@ -1,82 +1,82 @@
 export default {
   films: [
-    {
+    { id: "2baf70d1-42bb-4437-b551-e5fed5a87abe",
       title: "Castle in the Sky",
       img: "./data/ghibli/1.castleinthesky.jpg",
     },
-    {
+    { id: "58611129-2dbc-4a81-a72f-77ddfc1b1b49",
       title: "My neighbor Totoro",
       img: "./data/ghibli/2.myneighbortotoro.jpeg",
     },
-    {
+    { id: "ea660b10-85c4-4ae3-8a5f-41cea3648e3e",
       title: "Kiki's Delivery Service",
       img: "./data/ghibli/3.kiki'sdeliveryservice.jpeg",
     },
-    {
+    { id: "12cfb892-aac0-4c5b-94af-521852e46d6a",
       title: "Grave of The Fireflies",
       img: "./data/ghibli/4.graveofthefireflies.jpeg",
     },
-    {
+    { id: "4e236f34-b981-41c3-8c65-f8c9000b94e7",
       title: "Only Yesterday",
       img: "./data/ghibli/5.onlyyesterday.jpeg",
     },
-    {
+    { id: "ebbb6b7c-945c-41ee-a792-de0e43191bd8",
       title: "Porco Rosso",
       img: "./data/ghibli/6.porcorosso.jpeg",
     },
-    {
+    { id: "1b67aa9a-2e4a-45af-ac98-64d6ad15b16c",
       title: "Pom Poko",
       img: "./data/ghibli/7.pompoko.jpeg",
     },
-    {
+    { id: "ff24da26-a969-4f0e-ba1e-a122ead6c6e3",
       title: "Whisper of the Heart",
       img: "./data/ghibli/8.whisperoftheheart.jpeg",
     },
-    {
+    { id: "0440483e-ca0e-4120-8c50-4c8cd9b965d6",
       title: "Princess Mononoke",
       img: "./data/ghibli/9.princessmononoke.jpeg",
     },
-    {
+    { id: "45204234-adfd-45cb-a505-a8e7a676b114",
       title: "My neighbors the Yamadas",
       img: "./data/ghibli/10.myneighborstheyamadas.jpeg",
     },
-    {
+    { id: "dc2e6bd1-8156-4886-adff-b39e6043af0c",
       title: "Spirited Away",
       img: "./data/ghibli/11.spiritedaway.jpeg",
     },
-    {
+    { id: "90b72513-afd4-4570-84de-a56c312fdf81",
       title: "The Cat Returns",
       img: "./data/ghibli/12.thecatreturns.jpeg",
     },
-    {
+    { id: "cd3d059c-09f4-4ff3-8d63-bc765a5184fa",
       title: "Howl's Moving Castle",
       img: "./data/ghibli/13.howl'smovingcastle.jpeg",
     },
-    {
+    { id: "112c1e67-726f-40b1-ac17-6974127bb9b9",
       title: "Tales From Earthsea",
       img: "./data/ghibli/14.ovardlen(cuentosdeterramar).jpeg",
     },
-    {
+    { id: "758bf02e-3122-46e0-884e-67cf83df1786",
       title: "Ponyo on the Cliff by the Sea",
       img: "./data/ghibli/15.ponyo.jpeg",
     },
-    {
+    { id: "2de9426b-914a-4a06-a3a0-5e6d9d3886f6",
       title: "The Secret World of Arriety",
       img: "./data/ghibli/16.arrietty.jpeg",
     },
-    {
+    { id: "45db04e4-304a-4933-9823-33f389e8d74d",
       title: "From Up on Poppy Hill",
       img: "./data/ghibli/17.fromuponpoppyhill.jpeg",
     },
-    {
+    { id: "67405111-37a5-438f-81cc-4666af60c800",
       title: "The Wind Rises",
       img: "./data/ghibli/18.thewindrises.jpeg",
     },
-    {
+    { id: "578ae244-7750-4d9f-867b-f3cd3d6fecf4",
       title: "The Tale of the Princess Kaguya",
       img: "./data/ghibli/19.thetaleoftheprincesskaguya.jpeg",
     },
-    {
+    { id: "5fdfb320-2a02-49a7-94ff-5ca418cae602",
       title: "When Marnie Was There",
       img: "./data/ghibli/20.whenmarniewasthere.jpeg",
     },

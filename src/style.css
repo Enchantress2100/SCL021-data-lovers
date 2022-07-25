@@ -129,7 +129,6 @@ li a:hover:not(.active) {
   display: block;
   width: 28%;
   margin: 1%;
-  background-color: #555;
   /*margin: 1rem;*/
 }
 

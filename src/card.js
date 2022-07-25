@@ -17,49 +17,18 @@ for (i = 0; i < menu.length; i++) {
   });
 }
 
-//obtener data de las peliculas (titulo, release date, director, producer, description, rate)
 
-/*data.films.forEach((element) => {
-fetch(`http://localhost:3000/card?title=${element.title}`).then(function (response) {
-  document.getElementById("info").innerHTML +=
-  `<h1>Title: ${element.title}</h1>
-<h2>Release date: ${element.release_date}</h2>
-<p>Director: ${element.director}<p>
-<p>Producer: ${element.producer}</p>
-<p>Description: ${element.description}</p>
-<p>Rate: ${element.rt_score}</p>`;
-});
-});*/
-
-data.films.forEach((element) => {
-  fetch(`http://localhost:3000/card?title=${element.title}`).then(function (response) {
+//busca id en la URL
+let filmId = new URLSearchParams(location.search).get('id')
+//guarda la película que necesitamos
+let film = data.films.find(element => element.id === filmId) 
+//imprime la info en la card
     document.getElementById("info").innerHTML +=
-    `<h1>Title: ${element.title}</h1>
-  <h2>Release date: ${element.release_date}</h2>
-  <p>Director: ${element.director}<p>
-  <p>Producer: ${element.producer}</p>
-  <p>Description: ${element.description}</p>
-  <p>Rate: ${element.rt_score}</p>`;
-  });
-  });
-  
-  Object.keys(my_criteria).every(function(c) {
-    return obj[c] == my_criteria[c];
-  });
+    `<h1>${film.title} (${film.release_date})</h1>
+  <p>Director: ${film.director}<p>
+  <p>Producer: ${film.producer}</p>
+  <p>Description: ${film.description}</p>
+  <p>Rate: ${film.rt_score}</p>`;
 
-
-/*filter(word => word.length > 6);
-
-
-let dataMovie = data.films.filter((title===data.films.title) => {
-  fetch(`http://localhost:3000/card?title=${element.title}`).then(function (response) {
-    document.getElementById("info").innerHTML +=
-      `<h1>Title: ${element.title}</h1>
-<h2>Release date: ${element.release_date}</h2>
-<p>Director: ${element.director}<p>
-<p>Producer: ${element.producer}</p>
-<p>Description: ${element.description}</p>
-<p>Rate: ${element.rt_score}</p>`;
-  })
-})
-return dataMovie*/
+  document.getElementById("img").innerHTML +=
+  `<img class="picture" src=" ${film.poster} ">`;
