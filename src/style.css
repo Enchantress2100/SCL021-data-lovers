@@ -4,6 +4,7 @@
   font-family: 'Cabin', sans-serif;
 }
 
+
 body {
     background-color: white;
     margin: 0;
@@ -125,6 +126,11 @@ li a:hover:not(.active) {
   
 }
 
+.details {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .aside{
   display: block;
   width: 28%;
@@ -164,6 +170,13 @@ li a:hover:not(.active) {
     display: flex;
     justify-content: space-around;
     padding: 2rem 7rem 2rem 7rem;
+  }
+
+  .poster {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0;
   }
 
   /* DROPDOWN MENU */
@@ -227,7 +240,6 @@ li a:hover:not(.active) {
  .size{
   width: 73%;
   margin: 1%;
-  background-color: #666;
  }
 
  /*CARD*/
@@ -249,3 +261,15 @@ li a:hover:not(.active) {
 }
 
 /*FIN DE LA CARD*/
+
+.detailsCard{
+  width: 19%;
+  margin: 0.5%;
+}
+
+.detailsImg{
+  width: 100%;
+  aspect-ratio : 1 / 1;
+  object-fit: cover;
+  object-position: top;
+}

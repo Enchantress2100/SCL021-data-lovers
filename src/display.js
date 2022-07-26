@@ -1,13 +1,9 @@
-/*import data from "./data/ghibli/ghibli.js";
+import data from "./data/ghibli/titulos.js";
 
-
-//iteracion a traves del array titulos.js para desplegar imagenes y titulos en index.html.
-//prueba
 data.films.forEach((element) => {
-  document.getElementById("card").innerHTML +=
-`<div><a class="link1" href="#"><img src=" ${element.img} style="width:10rem" alt="Avatar" "</div> <h4><b>${element.title}</b></h4></a>`;
-
+  document.getElementById("allFilms").innerHTML += `<div class="card detailsCard insidecard">
+ <!--imprime imagenes de personajes-->
+<div id="image-people"><img class="detailsImg" src=" ${element.img} "></div>
+ <div id="info-people"><h3>${element.title}</h3></div>
+</div>`;
 });
-
-
-*/
