@@ -38,7 +38,6 @@ let film = data.films.find(element => element.id === filmId)
 
 //imprimir en desplegable people:name, gender, age, hair color, specie, img
 if (film.people.length === 0) {
-  //document.getElementById("content1").innerHTML =`No information available`
   document.getElementById("boton1").style.display = "none";
 } else {
   film.people.forEach((element) => {
@@ -57,27 +56,44 @@ if (film.people.length === 0) {
 
 //imprimir en desplegable locations: name, climate, terrain, surface water, residents, img
 
+
 if (film.locations.length === 0) {
   //document.getElementById("content2").innerHTML += `No information available`;
   document.getElementById("boton2").style.display = "none";
 } else {
   film.locations.forEach((element) => {
-    document.getElementById(
-      "content2"
-    ).innerHTML += `<div class="detailsCard card">
+
+    //iterar dentro del array para traer la informacion de residents: se hará creando un array residents, el que poblaremos con la informacion que rescatemos de la iteracion
+    let residents = [];
+    element.residents.forEach((element) => residents.push(element.name));
+
+    //crear if en caso que no haya residentes.
+    if (residents == 0) {
+    document.getElementById("content2").innerHTML += `<div class="detailsCard card">
    <!--imprime imagenes de ubicaciones-->
   <div id="image-location"><img class="detailsImg" src=" ${element.img} "></div>
    <div id="info-location"><h3>${element.name}</h3>
   <p>Climate: ${element.climate}</p>
     <p>Terrain: ${element.terrain}</p>
     <p>Surface water: ${element.surface_water}</p>
- </div>`;
-  });
-}
+    <p>Residents: No Data</p>
+   </div>`;
+    } else {
+      document.getElementById("content2").innerHTML += `<div class="detailsCard card">
+   <!--imprime imagenes de ubicaciones-->
+  <div id="image-location"><img class="detailsImg" src=" ${element.img} "></div>
+   <div id="info-location"><h3>${element.name}</h3>
+  <p>Climate: ${element.climate}</p>
+    <p>Terrain: ${element.terrain}</p>
+    <p>Surface water: ${element.surface_water}</p>
+    <p>Residents: ${residents}</p>
+   </div>`
+    }
+  })
+};
 
 //imprimir en desplegable vehicles: name, description, vehicle_class, length, pilot, name of the pilot.
 if (film.vehicles.length === 0) {
-   //document.getElementById("content3").innerHTML += `No information available`;
   document.getElementById('boton3').style.display="none"
 } else {
   film.vehicles.forEach((element) => {
