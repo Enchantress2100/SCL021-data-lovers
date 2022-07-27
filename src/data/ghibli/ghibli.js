@@ -170,7 +170,7 @@ export default {
           climate: "Continental",
           terrain: "City",
           surface_water: "40",
-          residents: ["No Data"],
+          residents: ["TODO"],
         },
         {
           id: "0132f7f6-fd52-4ac3-b5df-c96b609f77b6",
@@ -179,7 +179,7 @@ export default {
           climate: "Continental",
           terrain: "Hill",
           surface_water: "30",
-          residents: ["No Data"],
+          residents: ["TODO"],
         },
       ],
       vehicles: [
@@ -337,7 +337,7 @@ export default {
           climate: "Mild",
           terrain: "River",
           surface_water: "60",
-          residents: ["No Data"],
+          residents: ["TODO"],
         },
       ],
       vehicles: [],
@@ -420,8 +420,8 @@ export default {
           id: "fb083a4e-77b2-4623-a2e0-6bbca5bfd5b2",
           name: "Ursula's Log Cabin",
           img: "https://static.wikia.nocookie.net/studio-ghibli/images/b/b5/Ursula%27s_Log_Cabin.jpg",
-          climate: "TODO",
-          terrain: "TODO",
+          climate: "No Data",
+          terrain: "No Data",
           surface_water: "40",
           residents: ["No Data"],
         },
@@ -432,7 +432,7 @@ export default {
           climate: "Mild",
           terrain: "Hill",
           surface_water: "50",
-          residents: ["No Data"],
+          residents: ["TODO"],
         },
         {
           id: "62346d33-caa0-4c17-8016-0aca56f3066b",
@@ -441,7 +441,7 @@ export default {
           climate: "Mild",
           terrain: "City",
           surface_water: "30",
-          residents: ["No Data"],
+          residents: ["TODO"],
         },
         {
           id: "64a996aa-481e-4627-9624-ab23f59a05a9",
@@ -472,7 +472,7 @@ export default {
       director: "Isao Takahata",
       producer: "Toru Hara",
       poster:
-        "https://static.wikia.nocookie.net/studio-ghibli/images/a/a5/Grave_of_the_Fireflies_Japanese_poster.jpg",
+        "https://m.media-amazon.com/images/M/MV5BZmY2NjUzNDQtNTgxNC00M2Q4LTljOWQtMjNjNDBjNWUxNmJlXkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
       release_date: "1988",
       rt_score: "97",
       people: [
@@ -499,7 +499,7 @@ export default {
         {
           id: "227c01a6-4e29-4582-bc4b-35106a704ab0",
           name: "Mrs. Yokokawa",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/3/39/SeitaMother.png",
+          img: "https://cdn.myanimelist.net/images/characters/6/423031.jpg",
           gender: "Female",
           age: "Adult",
           eye_color: "Black",
@@ -509,7 +509,7 @@ export default {
         {
           id: "023306e3-9fc6-4d1d-b681-d4649dcbfff9",
           name: "Kiyoshi Yokokawa",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/f/f6/SeitaFather3.jpg",
+          img: "https://static.wikia.nocookie.net/studio-ghibli/images/b/b3/Seita_Father_3.jpg",
           gender: "Male",
           age: "40",
           eye_color: "Black",
@@ -519,7 +519,7 @@ export default {
         {
           id: "0e18b23d-1f21-4a83-a6de-f01147624875",
           name: "Seita's Aunt",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/0/09/SeitaAunt.jpg",
+          img: "https://thicc.mywaifulist.moe/waifus/39847/bc436226f2fcb591ac0de4cdf3033bc8ccac1b17bbd4ec9077bc2404d1794274_thumb.jpg",
           gender: "Female",
           age: "Elder",
           eye_color: "Black",
@@ -538,7 +538,7 @@ export default {
       director: "Isao Takahata",
       producer: "Toshio Suzuki",
       poster:
-        "https://static.wikia.nocookie.net/studio-ghibli/images/a/a9/Only_Yesterday.jpg",
+        "https://i.pinimg.com/originals/69/15/37/6915371a1eac4d34a6e5bec3d50fb53c.jpg",
       release_date: "1991",
       rt_score: "100",
       people: [
@@ -565,7 +565,7 @@ export default {
         {
           id: "52ed5cad-2464-481f-9786-8533b8de95ff",
           name: "Mr. Okajima",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/5/58/Mr._Okajima.png",
+          img: "https://www.personality-database.com/profile_images/215189.png",
           gender: "Male",
           age: "Middle age",
           eye_color: "Black",
@@ -673,8 +673,7 @@ export default {
         "Porco Rosso, known in Japan as Crimson Pig (Kurenai no Buta) is the sixth animated film by Hayao Miyazaki and released in 1992. You're introduced to an Italian World War I fighter ace, now living as a freelance bounty hunter chasing 'air pirates' in the Adriatic Sea. He has been given a curse that changed his head to that of a pig. Once called Marco Pagot, he is now known to the world as 'Porco Rosso', Italian for 'Red Pig.'",
       director: "Hayao Miyazaki",
       producer: "Toshio Suzuki",
-      poster:
-        "https://static.wikia.nocookie.net/studio-ghibli/images/4/41/Porco_Rosso.jpg",
+      poster: "https://m.media-amazon.com/images/I/5191sevnyXL._AC_.jpg",
       release_date: "1992",
       rt_score: "94",
       people: [
@@ -701,7 +700,7 @@ export default {
         {
           id: "4a2e2cee-08ca-4d44-9564-2b3e5421bafb",
           name: "Fio Piccolo",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/1/16/Fio_%282%29.jpg",
+          img: "https://pm1.narvii.com/7615/2277dd62deef441266a0beae6b65e8d52cc7f216r1-1242-1237v2_hq.jpg",
           gender: "Female",
           age: "17",
           eye_color: "Brown",
@@ -764,7 +763,7 @@ export default {
         {
           id: "d8f893b5-1dd9-41a1-9918-0099c1aa2de8",
           name: "Red Wing",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/8/8f/Porco%27s_Plane.jpg",
+          img: "https://hips.hearstapps.com/es.h-cdn.co/fotoes/images/peliculas-para-ninos-cine-infantil/las-mejores-frases-del-cine-de-ghibli/porco-rosso/114599443-1-esl-ES/Porco-rosso.jpg?resize=480:*",
           description:
             "An experimental aircraft captured by Porco. Named Savoia S.21",
           vehicle_class: "Airplane",
@@ -777,7 +776,7 @@ export default {
         {
           id: "7eb1b9cd-8153-4ef6-a0d4-1e9abd8d78da",
           name: "Dabohaze",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/9/99/Aiuto_Gang.jpg",
+          img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu__NX--HyUk_7aZHuWBX9zpa8ftKQNRmhS66lcOnzTBn4dC7lTCMPxyHp7-VaulVQUkI&usqp=CAU",
           description:
             "It's the Mamma Aiuto Gang's battle ship, They're an air pirate gang lead by Capo",
           vehicle_class: "Battle ship",
@@ -797,7 +796,7 @@ export default {
       director: "Isao Takahata",
       producer: "Toshio Suzuki",
       poster:
-        "https://static.wikia.nocookie.net/studio-ghibli/images/9/9e/Pom_Poko.jpg",
+        "https://i.pinimg.com/564x/30/91/ec/3091ec58bcaa018a011869e9dfd06bb5.jpg",
       release_date: "1994",
       rt_score: "78",
       people: [
@@ -873,7 +872,7 @@ export default {
       director: "Yoshifumi Kondō",
       producer: "Toshio Suzuki",
       poster:
-        "https://static.wikia.nocookie.net/studio-ghibli/images/7/7b/Whisper_of_the_Heart.jpg",
+        "https://m.media-amazon.com/images/M/MV5BZDg0MWNmNjktMGEwZC00ZDlmLWI1MTUtMDBmNjQzMWM2NjBjXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       release_date: "1995",
       rt_score: "91",
       people: [
@@ -972,7 +971,7 @@ export default {
         {
           id: "42f787d8-1fcb-4d3d-82f2-a74409869368",
           name: "Seiji's House",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/a/a7/Mimi011.jpg",
+          img: "http://1.bp.blogspot.com/-7Gp1L59g7w8/TwHmraTuHsI/AAAAAAAAAaA/E_8-eXv_KB0/s1600/%25E5%259C%25B0%25E7%2590%2583%25E5%25B1%258B.jpg",
           climate: "Continental",
           terrain: "City",
           surface_water: "0",
@@ -989,7 +988,7 @@ export default {
       director: "Hayao Miyazaki",
       producer: "Toshio Suzuki",
       poster:
-        "https://static.wikia.nocookie.net/studio-ghibli/images/c/c6/Princess_Mononoke.jpg",
+        "https://static2.tribute.ca/poster/660x980/princess-mononoke-130269.jpg",
       release_date: "1997",
       rt_score: "92",
       people: [
@@ -1016,7 +1015,7 @@ export default {
         {
           id: "34277bec-7401-43fa-a00a-5aee64b45b08",
           name: "Eboshi",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/9/9f/Eboshi.png",
+          img: "https://filmschoolrejects.com/wp-content/uploads/2019/10/Eboshi.jpg",
           gender: "Female",
           age: "Adult",
           eye_color: "Hazel",
@@ -1120,7 +1119,7 @@ export default {
           climate: "Tropical",
           terrain: "Forest",
           surface_water: "60",
-          residents: ["TODO"],
+          residents: ["No Data"],
         },
       ],
       vehicles: [],
@@ -1133,7 +1132,7 @@ export default {
       director: "Isao Takahata",
       producer: "Toshio Suzuki",
       poster:
-        "https://static.wikia.nocookie.net/studio-ghibli/images/d/db/My_Neighbors_the_Yamadas.jpg",
+        "https://www.themoviedb.org/t/p/original/nj0ijnOozQtu52r0ncut769G1FX.jpg",
       release_date: "1999",
       rt_score: "75",
       people: [
@@ -1199,7 +1198,7 @@ export default {
       director: "Hayao Miyazaki",
       producer: "Toshio Suzuki",
       poster:
-        "https://static.wikia.nocookie.net/studio-ghibli/images/9/9e/Spirited_Away.png",
+        "https://cdn.hmv.com/r/w-640/hmv/files/d0/d0c4e2ee-ea6d-414e-85e4-82d8ec4cbfb0.jpg",
       release_date: "2001",
       rt_score: "97",
       people: [
@@ -1226,7 +1225,7 @@ export default {
         {
           id: "177722d8-6fb0-4811-ad83-4d9c272eaebe",
           name: "Yubaba",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/f/f8/Yubaba-0.jpg",
+          img: "https://i1.wp.com/www.senpai.com.mx/wp-content/uploads/2021/07/Studio-Ghibli-crea-ilustracion-de-Yubaba-por-el-aniversario-de-El-Viaje-de-Chihiro.jpg?fit=1280%2C720&ssl=1",
           gender: "Female",
           age: "Elder",
           eye_color: "Dark brown",
@@ -1256,7 +1255,7 @@ export default {
         {
           id: "cf0a2a1b-8b65-4794-98ae-bd89de49fa62",
           name: "Lin",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/3/35/Lin-HBO_Max.png",
+          img: "https://i.pinimg.com/originals/3e/f2/40/3ef240431cc2a4c24a1b30786f9b9bcc.png",
           gender: "Female",
           age: "Adult",
           eye_color: "Brown",
@@ -1276,7 +1275,7 @@ export default {
         {
           id: "d9aceca5-beb9-4b2a-85ba-fc17d33750f8",
           name: "Zeniba",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/d/d8/Zeniba.png",
+          img: "https://static.wikia.nocookie.net/disney/images/a/a2/Spirited-away-disneyscreencaps.com-13212.jpg/",
           gender: "Female",
           age: "Elder",
           eye_color: "Dark brown",
@@ -1296,7 +1295,7 @@ export default {
         {
           id: "2e7bb7bf-4149-4df5-b6e4-76064021651c",
           name: "Yūko Ogino",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/c/c6/Ichiyuko_Ogino.png",
+          img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyg4ATpSOWazLAF44bLwetHYBasMBLWlvU1uEdIvN-IaZ4Zxfcf29V7sFDCF7kbiCzsuE&usqp=CAU",
           gender: "Female",
           age: "35",
           eye_color: "Dark brown",
@@ -1308,9 +1307,9 @@ export default {
         {
           id: "a072ec53-0467-4fac-864f-df234f9c4315",
           name: "Zeniba's Cottage",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/e/ec/Zeniba%27s_Cottage.png",
-          climate: "TODO",
-          terrain: "TODO",
+          img: "https://static.wikia.nocookie.net/studio-ghibli/images/e/ec/Zeniba%27s_Cottage.png/",
+          climate: "No Data",
+          terrain: "No Data",
           surface_water: "40",
           residents: ["TODO"],
         },
@@ -1334,7 +1333,7 @@ export default {
       director: "Hiroyuki Morita",
       producer: "Toshio Suzuki",
       poster:
-        "https://static.wikia.nocookie.net/studio-ghibli/images/8/87/The_Cat_Returns.jpg",
+        "https://m.media-amazon.com/images/M/MV5BYThhZDdiMjItYzRkNy00OTE3LTk5ZDEtMzUwNzE1ZmJkMTYzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
       release_date: "2002",
       rt_score: "89",
       people: [
@@ -1433,7 +1432,7 @@ export default {
         {
           id: "a8bd9c03-7c80-4a97-b7c0-6a668acaf576",
           name: "The Cat Kingdom",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/a/a9/Baron022.jpg",
+          img: "http://images5.fanpop.com/image/photos/25600000/The-Cat-Returns-studio-ghibli-25648722-1280-720.jpg",
           climate: "Continental",
           terrain: "Plain",
           surface_water: "30",
@@ -1467,7 +1466,7 @@ export default {
       director: "Hayao Miyazaki",
       producer: "Toshio Suzuki",
       poster:
-        "https://static.wikia.nocookie.net/studio-ghibli/images/0/08/Howl%27s_Moving_Castle.jpg",
+        "https://m.media-amazon.com/images/M/MV5BNmM4YTFmMmItMGE3Yy00MmRkLTlmZGEtMzZlOTQzYjk3MzA2XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_FMjpg_UX1000_.jpg",
       release_date: "2004",
       rt_score: "87",
       people: [
@@ -1494,7 +1493,7 @@ export default {
         {
           id: "1287b275-6c32-4113-947f-519316d4a6be",
           name: "Witch of the Waste",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/e/e1/Howls-moving-castle-disneyscreencaps.com-10507.jpg",
+          img: "https://img.buzzfeed.com/buzzfeed-static/static/2022-06/13/15/asset/8c0cf4d283f1/sub-buzz-718-1655135008-19.jpg",
           gender: "Female",
           age: "59",
           eye_color: "Brown",
@@ -1524,7 +1523,7 @@ export default {
         {
           id: "45237428-93bf-4dd6-97ce-f10647300429",
           name: "Prince Justin or Turnip Head",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/d/d9/Prince_Justin.png",
+          img: "https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/05/TurnipHead-Prince-Justin-Howls-Moving-Castle.jpg",
           gender: "Male",
           age: "20-30",
           eye_color: "Grey",
@@ -1587,7 +1586,7 @@ export default {
         {
           id: "2354305f-dccd-4c44-a79e-cc60ba7376e6",
           name: "Howl's castle",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/e/e6/Howls_Castle.jpg",
+          img: "https://i.pinimg.com/564x/98/cb/69/98cb6942287cda9117f9cfc81ddd2cf6--howls-moving-castle-hayao-miyazaki.jpg",
           description:
             "Wizard Howl's home. It's scale changes from scene to scene.",
           vehicle_class: "Moving castle",
@@ -1607,7 +1606,7 @@ export default {
       director: "Gorō Miyazaki",
       producer: "Toshio Suzuki",
       poster:
-        "https://static.wikia.nocookie.net/studio-ghibli/images/0/09/%C3%96v%C3%A4rlden.jpg",
+        "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6f612c84-6d3b-4039-8a1a-4e1b6e2681c0/d4ixulx-6edf5dca-9667-42c7-a383-696d11e9851d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzZmNjEyYzg0LTZkM2ItNDAzOS04YTFhLTRlMWI2ZTI2ODFjMFwvZDRpeHVseC02ZWRmNWRjYS05NjY3LTQyYzctYTM4My02OTZkMTFlOTg1MWQucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.O3Aa_SkY6p8XVxYxvfjbIxNm-jLk5_lY-0egsrb_eTo",
       release_date: "2006",
       rt_score: "41",
       people: [
@@ -1644,7 +1643,7 @@ export default {
         {
           id: "60469915-e18e-4cf3-b43d-95ea56cc300c",
           name: "Tenar",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/4/4f/Tenar.jpg",
+          img: "https://pm1.narvii.com/7675/427e863c9bbc6b33dbc639e2e55fe91024a5e068r1-760-772v2_hq.jpg",
           gender: "Female",
           age: "Adult",
           eye_color: "Grey",
@@ -1696,7 +1695,7 @@ export default {
         {
           id: "bcc54f38-8847-45b0-97b1-307c94b2b517",
           name: "Enland",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/0/0e/Ged007.jpg",
+          img: "https://images.fanart.tv/fanart/tales-from-earthsea-558af3a38b687.jpg",
           climate: "Wet",
           terrain: "Earthsea",
           surface_water: "100",
@@ -1712,8 +1711,7 @@ export default {
         "The son of a sailor, 5-year old Sosuke lives a quiet life on an oceanside cliff with his mother Lisa. One fateful day, he finds a beautiful goldfish trapped in a bottle on the beach and upon rescuing her, names her Ponyo. But she is no ordinary goldfish. The daughter of a masterful wizard and a sea goddess, Ponyo uses her father's magic to transform herself into a young girl and quickly falls in love with Sosuke, but the use of such powerful sorcery causes a dangerous imbalance in the world. As the moon steadily draws nearer to the earth and Ponyo's father sends the ocean's mighty waves to find his daughter, the two children embark on an adventure of a lifetime to save the world and fulfill Ponyo's dreams of becoming human.",
       director: "Hayao Miyazaki",
       producer: "Toshio Suzuki",
-      poster:
-        "https://static.wikia.nocookie.net/studio-ghibli/images/5/50/Ponyo_on_the_Cliff_by_the_Sea.jpg",
+      poster: "https://m.media-amazon.com/images/I/51q7iwFWYPL._AC_.jpg",
       release_date: "2008",
       rt_score: "92",
       people: [
@@ -1740,7 +1738,7 @@ export default {
         {
           id: "0cb26464-3416-4490-8f42-cd9d7276884e",
           name: "Kōichi",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/4/49/Sosuke%27s_Father.png",
+          img: "https://pm1.narvii.com/6340/911c6e8d40d99d746ba3f23cc50be684d5511734_hq.jpg",
           gender: "Male",
           age: "30",
           eye_color: "Dark brown",
@@ -1826,7 +1824,7 @@ export default {
           climate: "Wet",
           terrain: "Ocean",
           surface_water: "100",
-          residents: ["TODO"],
+          residents: ["No Data"],
         },
         {
           id: "469b14bd-5565-4436-bbed-c2036f42cc99",
@@ -1842,7 +1840,7 @@ export default {
         {
           id: "923d70c9-8f15-4972-ad53-0128b261d628",
           name: "Sosuke's Boat",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/c/c1/PonyoS%C5%8DsukeBoat.jpg",
+          img: "https://i.pinimg.com/originals/23/3e/d3/233ed32b079d015cb452a25c6020edd3.png",
           description: "A toy boat where Sosuke plays",
           vehicle_class: "Boat",
           length: "10",
@@ -1861,7 +1859,7 @@ export default {
       director: "Hiromasa Yonebayashi",
       producer: "Toshio Suzuki",
       poster:
-        "https://static.wikia.nocookie.net/studio-ghibli/images/4/46/The_Borrower_Arrietty.jpg",
+        "https://i.pinimg.com/originals/57/80/d9/5780d9b241479576d1fef352096eee9a.png",
       release_date: "2010",
       rt_score: "95",
       people: [
@@ -1888,7 +1886,7 @@ export default {
         {
           id: "ef5ee7c5-ae68-418d-a319-f3e79262cd87",
           name: "Homily Clock",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/2/28/Homily_Clock.jpg",
+          img: "https://thicc.mywaifulist.moe/waifus/30182/ffaf9fc2900456c6bf5d7b33b0df1fabf403a10b8831399cea95fa7e942732b4_thumb.jpeg",
           gender: "Female",
           age: "52",
           eye_color: "Brown",
@@ -1898,7 +1896,7 @@ export default {
         {
           id: "3a83aa65-d134-4e58-85b2-e9f6523b047d",
           name: "Sadako Maki/Jessica",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/1/1b/Jessica.jpg",
+          img: "https://feelinganimatedblog.files.wordpress.com/2021/03/sadako-finds-herbs-in-the-teapot.jpg",
           gender: "Female",
           age: "Elder",
           eye_color: "Black",
@@ -1918,7 +1916,7 @@ export default {
         {
           id: "ce5fb645-f0bb-4c1b-829f-907989d5525f",
           name: "Spiller",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/4/43/Spiller.jpg",
+          img: "https://i.pinimg.com/736x/80/6c/be/806cbe05b6aaca797448cc28dae083d2.jpg",
           gender: "Male",
           age: "Young",
           eye_color: "Black",
@@ -1928,7 +1926,7 @@ export default {
         {
           id: "a27ebdcb-4d29-40ac-8da6-5fc5a7869efb",
           name: "Pod Clock",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/7/76/Pod.png",
+          img: "https://assets.mycast.io/characters/pod-clock-277781-normal.jpg?1569259052",
           gender: "Male",
           age: "52",
           eye_color: "Grey",
@@ -1938,7 +1936,7 @@ export default {
         {
           id: "379f1453-38ca-486f-9d8b-f4eddc1e3fd3",
           name: "Niya",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/5/5a/Niya.jpg",
+          img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNNULmCiFoaLUTdwS-WV-aSj0UZo2VLCObJYxfRFtQb_llJIb8n132IuZ-_LJkYcBX3tA&usqp=CAU",
           gender: "Male",
           age: "52",
           eye_color: "White",
@@ -1950,7 +1948,7 @@ export default {
         {
           id: "1e7ed524-4b4f-466b-978c-69dda9777396",
           name: "Sho's house",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/8/86/Karigurashi002.jpg",
+          img: "https://3.bp.blogspot.com/-OHlM-KNCexI/VYuO8_e39gI/AAAAAAAABXQ/8EjJO4KBUNI/s1600/arriety.JPG",
           climate: "Warm",
           terrain: "Forest",
           surface_water: "10",
@@ -1959,7 +1957,7 @@ export default {
         {
           id: "f2148ab5-f272-4057-b05a-1321e35227b4",
           name: "Karigurashi's house",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/c/cd/Karigurashi019.jpg",
+          img: "https://rare-gallery.com/thumbnail/417692-artwork-digital-art-nature-trees-house-Karigurashi.jpg",
           climate: "Warm",
           terrain: "Under the floorboards",
           surface_water: "10",
@@ -1976,7 +1974,7 @@ export default {
       director: "Gorō Miyazaki",
       producer: "Toshio Suzuki",
       poster:
-        "https://static.wikia.nocookie.net/studio-ghibli/images/b/bb/From_Up_on_Poppy_Hill.jpg",
+        "https://i.pinimg.com/originals/df/84/0f/df840f306c5af613e40067f2e0ac7344.jpg",
       release_date: "2011",
       rt_score: "83",
       people: [
@@ -2081,8 +2079,7 @@ export default {
         "A lifelong love of flight inspires Japanese aviation engineer Jiro Horikoshi, whose storied career includes the creation of the A-6M World War II fighter plane.",
       director: "Hayao Miyazaki",
       producer: "Toshio Suzuki",
-      poster:
-        "https://static.wikia.nocookie.net/studio-ghibli/images/2/2d/The_Wind_Rises.jpg",
+      poster: "https://m.media-amazon.com/images/I/81zYNDMlJCL._AC_SL1500_.jpg",
       release_date: "2013",
       rt_score: "89",
       people: [
@@ -2171,7 +2168,7 @@ export default {
         {
           id: "2b380662-626d-42fb-9e3a-14f951201c8b",
           name: "Nagoya",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/2/20/Kazetachinu009.jpg",
+          img: "https://cinemarama.files.wordpress.com/2015/04/24.jpg?w=640",
           climate: "Damp",
           terrain: "Hill",
           surface_water: "20",
@@ -2182,7 +2179,7 @@ export default {
         {
           id: "411f66ed0-771c-46d3-8f68-a3b65c6dd91c",
           name: "Mitsubishi 1MF9 ",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/4/41/Kazetachinu044.jpg",
+          img: "https://diariodefriki.files.wordpress.com/2019/11/the-wind-rises-54bbff85723c1.jpg?w=1200",
           description:
             "The Mitsubishi 1MF9 or Mitsubishi Experimental Taka-type Carrier Fighter was a prototype Japanese fighter aircraft of the 1920s. It was a single-engined, single-seat biplane intended to operate from the Imperial Japanese Navy's aircraft carriers, but only two were built, with the type being rejected by the Navy.",
           vehicle_class: "War plane",
@@ -2202,14 +2199,14 @@ export default {
       director: "Isao Takahata",
       producer: "Yoshiaki Nishimura",
       poster:
-        "https://static.wikia.nocookie.net/studio-ghibli/images/8/87/The_Tale_of_the_Princess_Kaguya.jpg",
+        "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/3547/35471896_so.jpg",
       release_date: "2013",
       rt_score: "100",
       people: [
         {
           id: "a8b338c0-e586-4c1c-8857-f33540d0d4d7",
           name: "Kaguya",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/d/d4/Kaguya_shows_off_her_teeth.jpg",
+          img: "https://images.static-bluray.com/reviews/11390_5.jpg",
           gender: "Female",
           age: "Adult",
           eye_color: "Black",
@@ -2219,7 +2216,7 @@ export default {
         {
           id: "a21fbdd5-16bc-4931-80d0-3ce89ffce778",
           name: "Sutemaru",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/3/37/Sutemaru.PNG",
+          img: "https://static.wikia.nocookie.net/studio-ghibli/images/d/d0/Sutemaru.png/",
           gender: "Male",
           age: "Adult",
           eye_color: "Black",
@@ -2229,7 +2226,7 @@ export default {
         {
           id: "4c697b7d-4f64-4ac9-ae29-e155eb1693f3",
           name: "Ishitsukuri",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/5/5c/Ghibli-kaguya-ishitsukuri.jpg",
+          img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHE_eOa22hTFMpgI4Tfry6YMBe8WOW59V6g9R0pipu4MqMCPQxfk5Py6lY-4zZ6TioCNc&usqp=CAU",
           gender: "Male",
           age: "Adult",
           eye_color: "Black",
@@ -2239,7 +2236,7 @@ export default {
         {
           id: "fe1e5acf-e5e4-4769-9755-989cf7a2e961",
           name: "Miyatsuko",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/4/4a/Sanuki_no_Miyatsuko.jpeg",
+          img: "https://feelinganimatedblog.files.wordpress.com/2021/03/miyatsuko-finds-kaguya-in-bamboo-grove.jpg",
           gender: "Male",
           age: "Elder",
           eye_color: "Grey",
@@ -2249,7 +2246,7 @@ export default {
         {
           id: "839ff5b9-69ba-4d55-ab77-de939b46b18a",
           name: "Menowarawa",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/2/22/Menowarawa.jpg",
+          img: "https://pbs.twimg.com/media/FNkRsLEWQAQutXZ.jpg",
           gender: "Female",
           age: "17",
           eye_color: "Black",
@@ -2269,7 +2266,7 @@ export default {
         {
           id: "942fb1029-b51f-4100-8bee-86547c09b0ff",
           name: "Inbe no Akita",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/1/1c/Ghibli-kaguya-akita.jpg",
+          img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGjz8Oa0-u3CPgwKwvdkyJbcsbXWUhH-5PbQNAfkllC8ZyjPKuLWr_rTL-1RD3w4h7jaY&usqp=CAU",
           gender: "Male",
           age: "Elder",
           eye_color: "Black",
@@ -2291,7 +2288,7 @@ export default {
         {
           id: "682df5c3-b09e-46af-94d1-ae0d17f9b4b6",
           name: "Bamboo Forest",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/e/ec/Ghibli-kaguya-bamboo-forest.jpg",
+          img: "https://pbs.twimg.com/media/DhLv7HrUEAES2lv.jpg:large",
           climate: "Tropical",
           terrain: "Forest",
           surface_water: "10",
@@ -2308,7 +2305,7 @@ export default {
       director: "Hiromasa Yonebayashi",
       producer: "Yoshiaki Nishimura",
       poster:
-        "https://static.wikia.nocookie.net/studio-ghibli/images/7/7a/When_Marnie_Was_There.jpg",
+        "https://m.media-amazon.com/images/M/MV5BZTlmYTJmMWEtNDRhNy00ODc1LTg2OTMtMjk2ODJhNTA4YTE1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
       release_date: "2014",
       rt_score: "92",
       people: [
@@ -2325,7 +2322,7 @@ export default {
         {
           id: "28d07ace-c309-48c6-b48e-ae2ece3a238c",
           name: "Anna Sasaki",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/a/ae/Anna.png",
+          img: "https://i.pinimg.com/736x/c8/d9/78/c8d978a54cb2a8a1b6236a2ba6e95b98.jpg",
           gender: "Female",
           age: "12",
           eye_color: "Blue",
@@ -2355,7 +2352,7 @@ export default {
         {
           id: "66bca178-9920-4ec3-91e9-0d5b8a76dba1",
           name: "Setsu Oiwa",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/6/6e/Setsu.jpg",
+          img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJZjuYnnyWQ4G0SD5LY0h1LZaGpmWqP0M256-Gl5WG20NQtPRc3YkMJYS4RovBzPpTjJM&usqp=CAU",
           gender: "Female",
           age: "50-60",
           eye_color: "Dark brown",
@@ -2365,7 +2362,7 @@ export default {
         {
           id: "5b8e4413-f943-40ba-8f9f-0ba059a401f0",
           name: "Hisako",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/9/93/Hisako.png",
+          img: "http://www.deculture.es/wp-content/uploads/2014/05/marnie-7.jpg",
           gender: "Female",
           age: "Elder",
           eye_color: "Dark brown",
@@ -2395,7 +2392,7 @@ export default {
         {
           id: "31b49ef6-ee60-4603-b983-e67fa0718aa9",
           name: "Kiyomasa Ōiwa",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/d/d7/Kiyomasa.jpg",
+          img: "https://cdn.animenewsnetwork.com/thumbnails/max1000x1500/cms/news/76042/gh4.jpg",
           gender: "Male",
           age: "50-60",
           eye_color: "Dark brown",
@@ -2405,7 +2402,7 @@ export default {
         {
           id: "5d52d16f-ce72-41bd-8d88-436e206d9449",
           name: "Doctor Yamashita",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/8/8a/Yamashita.jpg",
+          img: "https://ami.animecharactersdatabase.com/uploads/chars/23275-228597788.jpg",
           gender: "Male",
           age: "Adult",
           eye_color: "Black",
@@ -2417,7 +2414,7 @@ export default {
         {
           id: "56e423c4-d9a1-44c4-8bdb-1cab45fbf63e",
           name: "The Marsh House",
-          img: "https://static.wikia.nocookie.net/studio-ghibli/images/8/8c/Marsh_house.jpg",
+          img: "https://cdna.artstation.com/p/assets/images/images/031/706/930/large/alexi-ansell-when-marnie-was-there2.jpg?1604366969",
           climate: "Mild",
           terrain: "Marsh",
           surface_water: "60",
