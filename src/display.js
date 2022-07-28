@@ -1,6 +1,13 @@
 import data from "./data/ghibli/titulos.js";
+import sortFilms from './data.js';
 
-data.films.forEach((element) => {
+console.log(data.films)
+
+let displayFilms = sortFilms(data.films)
+
+console.log(displayFilms)
+
+displayFilms.forEach((element) => {
   document.getElementById("allFilms").innerHTML += `<div class="card detailsCard insidecard">
  <!--imprime imagenes de personajes-->
 <div id="image-people"><img class="detailsImg" src=" ${element.img} "></div>
