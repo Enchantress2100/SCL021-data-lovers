@@ -1,4 +1,4 @@
-import { example } from "./data.js";
+import { sortFilms } from "./data.js";
 import data from "./data/ghibli/ghibli.js";
 import movies from "./data/ghibli/titulos.js";
 
@@ -58,7 +58,6 @@ if (film.people.length === 0) {
 
 
 if (film.locations.length === 0) {
-  //document.getElementById("content2").innerHTML += `No information available`;
   document.getElementById("boton2").style.display = "none";
 } else {
   film.locations.forEach((element) => {
