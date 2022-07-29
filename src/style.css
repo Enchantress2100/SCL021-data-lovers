@@ -10,6 +10,11 @@ body {
     margin: 0;
   }
 
+.titleImage{
+  display: flex;
+  align-items: center;
+}
+
 .main{
   height: auto;
   width: 100%;
