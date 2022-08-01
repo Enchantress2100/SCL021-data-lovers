@@ -99,12 +99,13 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
-  background-color: #111;
+.active {
+    background-color: #04AA6D;
+    margin-top: 30px;
 }
 
-.active {
-  background-color: #04AA6D;
+.active:hover {
+  transform: scale(1.1);
 }
 
 .left {
@@ -114,6 +115,15 @@ li a:hover:not(.active) {
 .right {
   float: right;
 }
+
+.totoro{
+  height:100px;
+}
+
+ .totoro:hover {
+   transform: scale(1.2);
+ }
+
 
 /* fin del navbar*/
 
