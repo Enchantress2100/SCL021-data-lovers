@@ -1,5 +1,3 @@
-import { sortFilms } from "./data.js";
-import data from "./data/ghibli/ghibli.js";
 import movies from "./data/ghibli/titulos.js";
 
 //iteracion a traves del array titulos.js para desplegar imagenes y titulos en index.html. Agregar titulo de la pelicula como parametro url para establecer su ruta.

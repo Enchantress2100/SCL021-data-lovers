@@ -17,7 +17,6 @@ for (i = 0; i < menu.length; i++) {
   });
 }
 
-
 //busca id en la URL como parametro unico dado en la url de index.js
 let filmId = new URLSearchParams(location.search).get('id')
 
@@ -55,7 +54,6 @@ if (film.people.length === 0) {
 }
 
 //imprimir en desplegable locations: name, climate, terrain, surface water, residents, img
-
 
 if (film.locations.length === 0) {
   document.getElementById("boton2").style.display = "none";

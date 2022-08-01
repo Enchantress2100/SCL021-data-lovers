@@ -1,12 +1,15 @@
 import data from "./data/ghibli/ghibli.js";
-export const sortFilms = (films, criteria, asc) => {
+
+//acá van las funciones que permiten ordenar, y filtrar, mas no imprimir en el dom 
+
+const sortFilms = (films, criteria, asc) => {
  
 let result = films.sort(function (a, b) {
 //para ordenar valores numericos (criteria corresponde al parametro que se va a filtrar)
   if (!isNaN(Number(a[criteria])))
   {a = new Number(a[criteria])
-   b = new Number(b[criteria])}
-   else {
+    b = new Number(b[criteria])}
+  else {
 //para ordenar valores tipo string
          a = a[criteria].toUpperCase(),
          b = b[criteria].toUpperCase(); }
@@ -17,10 +20,10 @@ if (!asc) {
   return result.reverse()
 }
   return result
-}
-
-export const anotherExample = () => {
-  return "OMG";
 };
 
-export default sortFilms;
+const filterFilms = () => {
+  
+};
+
+export {sortFilms , filterFilms};
