@@ -1,5 +1,5 @@
 import data from "./data/ghibli/ghibli.js";
-import { sortFilms, filterFilms } from "./data.js";
+import { sortFilms, filterCriteria, filterFilms } from "./data.js";
 
 //funcion para ordenar de forma descendente (inicialmente se asigna a director, posteriormente se va reasignando a los otros valores)
 let criteria = 'director';
@@ -8,7 +8,6 @@ let order = true;
 document.getElementById("order").addEventListener("click", function(){
 order = !order 
 print(criteria, order);
-    
 });
 
 //funcion global para imprimir informacion
@@ -22,6 +21,7 @@ function print() {
         </div>`;
     });
 }
+
 //se muestra de forma predeterminada el nombre del director de forma ascendente
 print("director", true); 
 
@@ -46,7 +46,24 @@ criteria ='rt_score'
 print() 
 }
 
+let option= 'producer'
+let filterBy = "Isao Takahata"
 
+//console.log(filterFilms(data.films, option, filterBy))
 
+function check() {
+     document.getElementById("filter").innerHTML = ""
+     document.getElementById("filter").innerHTML = `Choose your option to filter: <br>` ;
+     filterCriteria(data.films, option).forEach((element) => {
+         document.getElementById("filter").innerHTML += `
+       <label><input type="checkbox" id="${element}" value="${element}">${element}</label><br>`;
+     });
+ }
+ check()
 
-
+ //prueba
+document.getElementById("Isao Takahata").addEventListener("click", filterTest);
+function filterTest() {
+criteria ='rt_score'
+console.log(document.getElementById("Isao Takahata").value)
+print();}

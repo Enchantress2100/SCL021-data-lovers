@@ -22,8 +22,16 @@ if (!asc) {
   return result
 };
 
-const filterFilms = () => {
+//key es el aspecto generar a filtrar
+const filterCriteria = (films, key) => {
+    let setOptions = new Set();
+    films.forEach((element) => setOptions.add(element[key]));
+  return setOptions;
+  };
   
-};
+//filterBy es el valor especifico de key, ej Miyazaki
+const filterFilms = (films, key, filterBy) => {
+  return films.filter((element) => element[key] === filterBy)
+}
 
-export {sortFilms , filterFilms};
+export {sortFilms , filterCriteria, filterFilms};
