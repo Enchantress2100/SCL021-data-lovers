@@ -51,19 +51,30 @@ let filterBy = "Isao Takahata"
 
 //console.log(filterFilms(data.films, option, filterBy))
 
-function check() {
-     document.getElementById("filter").innerHTML = ""
-     document.getElementById("filter").innerHTML = `Choose your option to filter: <br>` ;
-     filterCriteria(data.films, option).forEach((element) => {
-         document.getElementById("filter").innerHTML += `
+function check(location, category) {
+    filterCriteria(data.films, category).forEach((element) => {
+         document.getElementById([location]).innerHTML += `
        <label><input type="checkbox" id="${element}" value="${element}">${element}</label><br>`;
-     });
+    });
  }
- check()
+check("filter1", "director");
+check("filter2", "producer");
+check("filter3", "release_date");
 
- //prueba
-document.getElementById("Isao Takahata").addEventListener("click", filterTest);
-function filterTest() {
-criteria ='rt_score'
-console.log(document.getElementById("Isao Takahata").value)
-print();}
+//hace eventlistener para cada check
+filterCriteria(data.films, 'director').forEach((element) => {
+  document.getElementById(element).addEventListener("click", filterTest);
+     function filterTest() {
+      console.log(document.getElementById(element).value);
+     print();
+    }
+});
+
+//  //prueba
+// data.films.forEach(element => {
+//   document.getElementById(filterCriteria(data.films, 'director')).addEventListener("click", filterTest);
+//   function filterTest() {
+//    console.log(document.getElementById(element).value);
+//    print();
+//   } 
+// })
