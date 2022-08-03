@@ -22,6 +22,7 @@ function print() {
     });
 }
 
+
 //se muestra de forma predeterminada el nombre del director de forma ascendente
 print("director", true); 
 
@@ -54,27 +55,27 @@ let filterBy = "Isao Takahata"
 function check(location, category) {
     filterCriteria(data.films, category).forEach((element) => {
          document.getElementById([location]).innerHTML += `
-       <label><input type="checkbox" id="${element}" value="${element}">${element}</label><br>`;
+       <label><input type="radio" name="${[category]}" id="${element}" value="${element}">${element}</label><br>`;
     });
  }
+
 check("filter1", "director");
 check("filter2", "producer");
 check("filter3", "release_date");
 
-//hace eventlistener para cada check
-filterCriteria(data.films, 'director').forEach((element) => {
-  document.getElementById(element).addEventListener("click", filterTest);
-     function filterTest() {
-      console.log(document.getElementById(element).value);
-     print();
-    }
+document.addEventListener("submit", (event) => {
+  event.preventDefault();
+  let fullName = document.querySelector('input[name="director"]:checked').value
+  console.log('holaaaaaaaaa ' + fullName)
+  //funcion global para imprimir informacion filtrada
+  document.getElementById("allFilms").innerHTML = ""
+  filterFilms(data.films, 'director', fullName).forEach((element) => {
+    document.getElementById("allFilms").innerHTML += `<div class="card detailsCard insidecard">
+       <!--imprime imagenes de personajes-->
+       <div id="image-people"><img class="detailsImg" src=" ${element.poster} "></div>
+       <div id="info-people"><h3>${element.title}</h3></div>
+      </div>`;
+  });
+
 });
 
-//  //prueba
-// data.films.forEach(element => {
-//   document.getElementById(filterCriteria(data.films, 'director')).addEventListener("click", filterTest);
-//   function filterTest() {
-//    console.log(document.getElementById(element).value);
-//    print();
-//   } 
-// })

@@ -26,25 +26,31 @@
               </div>
         </div>
 
-        <div class="main">
+        <div action="" class="main">
           <div class="filter" id="filter">
-          <section class="menu">
           <h4>Filter by:</h4>
+          <form class="menu" id="director">
           <button type="button" id="boton1" class="collapsible">Director</button>
-          <div class="" id="filter1">
-          </div>
+          <div class="filtradirector" id="filter1"></div>
+          <div><button type="submit" id="submitDirector">Submit</button></div>
+          </form>
+          <form class="menu" action="javascript:console.log('chao');">
           <button type="button" id="boton2" class="collapsible">Producer</button>
-          <div class="" id="filter2">
-          </div>
+          <div class="" id="filter2"></div>
+          <div><button type="submit" id="submitProducer">Submit</button></div>
+          </form>
+          <form class="menu" action="javascript:console.log('hola de nuevo');">
           <button type="button" id="boton3" class="collapsible">Year</button>
-          <div class="" id="filter3">
-
-          </div>
-      </section>
+          <div class="" id="filter3"></div>
+          <div><button type="submit" id="submitDate">Submit</button></div>
+          </form>
       </div>
     <div id='allFilms' class="wrapper size">
     </div>
     </div>
 <script type="module" src="./display.js"></script>
+
 </body>
 </html>
+
+
