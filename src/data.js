@@ -21,6 +21,7 @@ if (!asc) {
 }
   return result
 };
+
 //funcion para filtrar
 //key es el aspecto generar a filtrar
 const filterCriteria = (films, key) => {

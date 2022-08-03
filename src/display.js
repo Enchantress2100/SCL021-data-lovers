@@ -63,19 +63,57 @@ check("filter1", "director");
 check("filter2", "producer");
 check("filter3", "release_date");
 
-document.addEventListener("submit", (event) => {
-  event.preventDefault();
-  let fullName = document.querySelector('input[name="director"]:checked').value
-  console.log('holaaaaaaaaa ' + fullName)
+//filtrar por director
+
+let filterDirector = document.getElementById('director')
+filterDirector.addEventListener("submit", filter1)
+
+function filter1() {
+    event.preventDefault();
+  let fullName = document.querySelector('input[name="director"]:checked').value;
   //funcion global para imprimir informacion filtrada
-  document.getElementById("allFilms").innerHTML = ""
-  filterFilms(data.films, 'director', fullName).forEach((element) => {
+  document.getElementById("allFilms").innerHTML = "";
+  filterFilms(data.films, "director", fullName).forEach((element) => {
     document.getElementById("allFilms").innerHTML += `<div class="card detailsCard insidecard">
        <!--imprime imagenes de personajes-->
        <div id="image-people"><img class="detailsImg" src=" ${element.poster} "></div>
        <div id="info-people"><h3>${element.title}</h3></div>
       </div>`;
   });
+}
 
-});
+//filtrar por productor
+let filterProducer = document.getElementById("producer");
+filterProducer.addEventListener("submit", filter2);
 
+function filter2() {
+  event.preventDefault();
+  let fullName = document.querySelector('input[name="producer"]:checked').value;
+  //funcion global para imprimir informacion filtrada
+  document.getElementById("allFilms").innerHTML = "";
+  filterFilms(data.films, "producer", fullName).forEach((element) => {
+    document.getElementById("allFilms").innerHTML += `<div class="card detailsCard insidecard">
+       <!--imprime imagenes de personajes-->
+       <div id="image-people"><img class="detailsImg" src=" ${element.poster} "></div>
+       <div id="info-people"><h3>${element.title}</h3></div>
+      </div>`;
+  });
+}
+
+//filtrar por año
+let filterByYear = document.getElementById("year");
+filterByYear.addEventListener("submit", filter3);
+
+function filter3() {
+  event.preventDefault();
+  let fullName = document.querySelector('input[name="release_date"]:checked').value;
+  //funcion global para imprimir informacion filtrada
+  document.getElementById("allFilms").innerHTML = "";
+  filterFilms(data.films, "release_date", fullName).forEach((element) => {
+    document.getElementById("allFilms").innerHTML += `<div class="card detailsCard insidecard">
+       <!--imprime imagenes de personajes-->
+       <div id="image-people"><img class="detailsImg" src=" ${element.poster} "></div>
+       <div id="info-people"><h3>${element.title}</h3></div>
+      </div>`;
+  });
+}
