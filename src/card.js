@@ -1,6 +1,6 @@
-import { sortFilms } from "./data.js";
+//import { sortFilms } from "./data.js";
 import data from "./data/ghibli/ghibli.js";
-import movies from "./data/ghibli/titulos.js";
+//import movies from "./data/ghibli/titulos.js";
 
 //menú colapsable
 let menu = document.getElementsByClassName("collapsible");
@@ -87,7 +87,7 @@ if (film.locations.length === 0) {
    </div>`
     }
   })
-};
+}
 
 //imprimir en desplegable vehicles: name, description, vehicle_class, length, pilot, name of the pilot.
 if (film.vehicles.length === 0) {

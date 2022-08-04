@@ -47,13 +47,24 @@ criteria ='rt_score'
 print() 
 }
 
-let option= 'producer'
-let filterBy = "Isao Takahata"
+//let option= 'producer'
+//let filterBy = "Isao Takahata"
 
 //console.log(filterFilms(data.films, option, filterBy))
 
 function check(location, category) {
-    filterCriteria(data.films, category).forEach((element) => {
+  //transformar el set filterCriteria a un array, se le asigna el nombre buttons, para ordenar los años.
+  let buttons = Array.from(filterCriteria(data.films, category))
+  buttons = buttons.sort(function (a, b) {
+    //para ordenar valores numericos dentro de un string dentro de un arreglo
+      if (!isNaN(Number(a)))
+      {a = new Number(a)
+        b = new Number(b)}
+       return a == b ? 0 : a > b ? 1 : -1; 
+     })
+
+  //console.log(buttons)
+  buttons.forEach((element) => {
          document.getElementById([location]).innerHTML += `
        <label><input type="radio" name="${[category]}" id="${element}" value="${element}">${element}</label><br>`;
     });

@@ -1,4 +1,4 @@
-import data from "./data/ghibli/ghibli.js";
+//import data from "./data/ghibli/ghibli.js";
 
 //acá van las funciones que permiten ordenar, y filtrar, mas no imprimir en el dom 
 
@@ -25,10 +25,18 @@ if (!asc) {
 //funcion para filtrar
 //key es el aspecto generar a filtrar
 const filterCriteria = (films, key) => {
-    let setOptions = new Set();
-    films.forEach((element) => setOptions.add(element[key]));
-  return setOptions;
-  };
+    let setOptions = new Set(); 
+  films.forEach((element) => setOptions.add(element[key]));
+  let orderedOptions=Array.from(setOptions);
+  orderedOptions = orderedOptions.sort(function (a, b) {
+    //para ordenar valores numericos dentro de un string dentro de un arreglo
+      if (!isNaN(Number(a)))
+      {a = new Number(a)
+        b = new Number(b)}
+       return a == b ? 0 : a > b ? 1 : -1; 
+     })
+  return orderedOptions
+};
   
 //filterBy es el valor especifico de key, ej Miyazaki
 const filterFilms = (films, key, filterBy) => {
