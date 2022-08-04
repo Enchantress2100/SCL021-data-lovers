@@ -16,7 +16,7 @@ function print() {
     sortFilms(data.films, criteria, order).forEach((element) => {
       document.getElementById("allFilms").innerHTML += `<div class="card detailsCard insidecard">
          <!--imprime imagenes de personajes-->
-         <div id="image-people"><img class="detailsImg" src=" ${element.poster} "></div>
+         <div id="image-people"><a class="link1" href="./card?id=${element.id}"><img class="detailsImg" src=" ${element.poster} "></a></div>
          <div id="info-people"><h3>${element.title}</h3></div>
         </div>`;
     });
@@ -87,7 +87,7 @@ function filter1() {
   filterFilms(data.films, "director", fullName).forEach((element) => {
     document.getElementById("allFilms").innerHTML += `<div class="card detailsCard insidecard">
        <!--imprime imagenes de personajes-->
-       <div id="image-people"><img class="detailsImg" src=" ${element.poster} "></div>
+       <div id="image-people"><a class="link1" href="./card?id=${element.id}"><img class="detailsImg" src=" ${element.poster} "></a></div>
        <div id="info-people"><h3>${element.title}</h3></div>
       </div>`;
   });
@@ -105,7 +105,7 @@ function filter2() {
   filterFilms(data.films, "producer", fullName).forEach((element) => {
     document.getElementById("allFilms").innerHTML += `<div class="card detailsCard insidecard">
        <!--imprime imagenes de personajes-->
-       <div id="image-people"><img class="detailsImg" src=" ${element.poster} "></div>
+       <div id="image-people"><a class="link1" href="./card?id=${element.id}"><img class="detailsImg" src=" ${element.poster} "></a></div>
        <div id="info-people"><h3>${element.title}</h3></div>
       </div>`;
   });
@@ -123,7 +123,7 @@ function filter3() {
   filterFilms(data.films, "release_date", fullName).forEach((element) => {
     document.getElementById("allFilms").innerHTML += `<div class="card detailsCard insidecard">
        <!--imprime imagenes de personajes-->
-       <div id="image-people"><img class="detailsImg" src=" ${element.poster} "></div>
+       <div id="image-people"><a class="link1" href="./card?id=${element.id}"><img class="detailsImg" src=" ${element.poster} "></a></div>
        <div id="info-people"><h3>${element.title}</h3></div>
       </div>`;
   });
