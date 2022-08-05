@@ -4,6 +4,7 @@
 Este proyecto tiene la finalidad de dar información a personas que quieran aprender más sobre las películas del Studio Ghibli, sin ser un sitio para expertos. Está orientado más bien a aficionados, usuarios que disfrutan de páginas interactivas para buscar datos como resúmenes, rankings, personajes y reconocimientos. Además, permite filtrar información dependiendo de distintos criterios que el usuario puede especificar.
 
 ## Historias de usuario y DoD ##
+https://trello.com/b/PipGLbIe/data-lovers
 
 ### 1. Acceder a la página, escoger una película y que se desplieguen ciertos datos generales. ###
 
